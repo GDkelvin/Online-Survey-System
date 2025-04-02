@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class TopicDAO {
     private static ArrayList<Topic> topics = new ArrayList<>();
     private static ArrayList<Question> questions = new ArrayList<>();
-    //Delete a topic
+    //Add new topic
     static {
         // Hardcoded topics
         topics.add(new Topic("1001", "Programming Languages"));
