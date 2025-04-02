@@ -2,7 +2,7 @@ package dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 public class Database {
-
+       
       public static Connection getConnection() {
           try  {
               Class.forName("oracle.jdbc.driver.OracleDriver");
